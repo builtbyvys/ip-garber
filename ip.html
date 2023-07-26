@@ -3,7 +3,9 @@
   <body>
     <div class="panel" id="panel">
       <div class="title" id="title">
-        <span>ip garber</span>
+        <span style="font-family: 'Comic Sans MS', cursive; font-size: 20px"
+          >ip garber</span
+        >
         <div class="close-btn" onclick="closePanel()"></div>
       </div>
       <div class="content">
@@ -14,7 +16,22 @@
           placeholder="target..."
         />
         <br />
-        <button class="button" onclick="submitForm()">Submit</button>
+        <button
+          class="button"
+          style="
+            font-family: 'Comic Sans MS', cursive;
+            height: 30px;
+            width: 100%;
+            margin-top: 10px;
+            text-transform: lowercase;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          "
+          onclick="submitForm()"
+        >
+          Submit
+        </button>
       </div>
     </div>
 
@@ -67,6 +84,7 @@
         resize: none;
         border: 1px solid #ccc;
         box-sizing: border-box;
+        font-family: "Comic Sans MS", cursive;
       }
 
       .button {
